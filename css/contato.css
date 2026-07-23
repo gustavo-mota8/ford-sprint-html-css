@@ -1,0 +1,246 @@
+
+
+html, body {
+
+    height: 100%;
+    margin: 0;
+}
+
+body {
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+header {
+
+     
+      display: flex; 
+      padding: 10px;
+      border-bottom: 1px solid #1b357e;
+
+    
+}
+
+h1 img {
+
+    height: 80px;
+}
+
+hr {
+
+    border: 0.5px solid #1b357e;
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+nav li {
+
+    
+    display: inline;
+    padding-top: 70px;
+    margin: 15px;
+   
+    
+ 
+}
+
+nav a {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #1b357e;
+}
+
+nav a:hover {
+
+    color: #0033CC ;
+}
+
+
+main {
+
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+form {
+
+
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+   
+}
+
+form label  {
+
+    margin-right: 60px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+
+form input {
+
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 0.5px solid #1b357e;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+
+
+
+#campoMensagem {
+
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 0.5px solid #1b357e;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#campoContato {
+
+
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 0.5px solid #1b357e;
+    border-radius: 4px;
+    padding: 5px;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+#btEnviar {
+
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #0033CC;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 5px;
+    height: 40px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+} 
+
+#btEnviar:hover{
+
+    width: 100%;
+    font-size: 20px;
+   
+
+}
+
+
+
+
+footer {
+
+
+   
+    background-color: #1b357e;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+
+@media (max-width: 480px) {
+
+
+    h1 img {
+
+        height: 50px;
+
+    }
+    
+    nav li {
+
+        margin: 2px;
+    }
+    
+    main {
+
+        flex-direction: column;
+    }
+   footer {
+
+    flex-direction: column;
+ 
+    
+
+   }
+   
+}
+
+footer div {
+
+
+    flex: 20%;
+
+}
+
+.divRedes {
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+}
+
+
+
