@@ -15,6 +15,6 @@
 
 # Passo a passo para visualização do projeto
 
-   1 - Realize o Download ZIP
-   2 - Extraia tudo do arquivo ZIP
-   3 - Abra o arquivo index
+  - Realize o Download ZIP
+  - Extraia tudo do arquivo ZIP
+  - Abra o arquivo index
